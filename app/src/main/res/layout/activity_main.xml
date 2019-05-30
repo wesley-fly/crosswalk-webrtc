@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <!--显示网页区域-->
+    <org.xwalk.core.XWalkView
+        android:id="@+id/xWalkView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <!--<com.internal.voip.pullrefresh.widget.PtrClassicFrameLayout-->
+        <!--android:id="@+id/rotate_header_web_view_frame"-->
+        <!--xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@android:color/white"-->
+        <!--cube_ptr:ptr_duration_to_close="200"-->
+        <!--cube_ptr:ptr_duration_to_close_header="1000"-->
+        <!--cube_ptr:ptr_keep_header_when_refresh="true"-->
+        <!--cube_ptr:ptr_pull_to_fresh="false"-->
+        <!--cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"-->
+        <!--cube_ptr:ptr_resistance="1.8">-->
+
+
+
+        <!--&lt;!&ndash;显示网页区域&ndash;&gt;-->
+        <!--<org.xwalk.core.XWalkView-->
+            <!--android:id="@+id/xWalkView"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent" />-->
+
+    <!--</com.internal.voip.pullrefresh.widget.PtrClassicFrameLayout>-->
+</RelativeLayout>
