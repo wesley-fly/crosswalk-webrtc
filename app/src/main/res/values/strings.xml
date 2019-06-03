@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Hybird VoIP</string>
+    <string name="app_name">CrosswalkWebRTC</string>
     <string name="title_activity_main">MainActivity</string>
 </resources>
