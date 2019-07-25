@@ -34,9 +34,9 @@ public class MainActivity extends XWalkActivity {
     private final String TAG = "XWalkActivity-Test";
     private XWalkView xWalkWebView;
     private XWalkSettings xWVSettings;
-    private String mUrl = "https://www.iispeak.com/user/courseOfApp.html";
+
 //    private String mUrl = "https://appr.tc/r/18629586538?vrc=H264&vsc=H264";
-//    private String mUrl = "https://appr.tc/r/18629586538?vrc=H264&debug=loopback&vsc=H264";
+    private String mUrl = "https://appr.tc/r/18629586538?vrc=H264&debug=loopback&vsc=H264";
 
     public class JsInterface {
         @JavascriptInterface
