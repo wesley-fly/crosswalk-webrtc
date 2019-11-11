@@ -36,8 +36,8 @@ public class MainActivity extends XWalkActivity {
     private XWalkSettings xWVSettings;
 
     //以下两个url需要vpn
-//    private String mUrl = "https://appr.tc/r/18629586538?vrc=H264&vsc=H264";
-    private String mUrl = "https://appr.tc/r/18629586538?vrc=H264&debug=loopback&vsc=H264";
+    private String mUrl = "https://appr.tc/r/1472583691?vrc=H264&vsc=H264";
+//    private String mUrl = "https://appr.tc/r/18629586538?vrc=H264&debug=loopback&vsc=H264";
 
     public class JsInterface {
         @JavascriptInterface
